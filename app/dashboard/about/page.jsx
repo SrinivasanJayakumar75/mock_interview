@@ -1,17 +1,13 @@
-import React from "react";
-
-const about = () => {
-    return (
-        <>
-        <div className="container">
-            <div className="text-9xl">
-                Manoj
-            </div>
+import react from 'react';
 
 
-        </div>
-        </>
-    )
+const placement = () =>{
+    return 
+    <>
+    <div>
+        <div className='text-9xl'>tcs</div>
+    </div>
+    </>
 }
 
-export default about;
+export default placement;

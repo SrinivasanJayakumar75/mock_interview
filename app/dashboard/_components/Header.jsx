@@ -25,10 +25,15 @@ function Header() {
             >Dashboard</li>
             </Link>
             
+            <Link href={"/dashboard/placement"}><li className={`hover:text-primary hover:font-bold transition-all
+            cursor-pointer
+            ${path=='/dashboard/questions'&&'text-primary font-bold'}
+            `}>placement</li>
+            </Link>
             <Link href={"/dashboard/about"}><li className={`hover:text-primary hover:font-bold transition-all
             cursor-pointer
             ${path=='/dashboard/questions'&&'text-primary font-bold'}
-            `}>About</li>
+            `}>Courses</li>
             </Link>
               <Link href={"/dashboard/upgrade"}>
             <li className={`hover:text-primary hover:font-bold transition-all
